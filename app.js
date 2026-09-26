@@ -28,7 +28,6 @@ console.log("=== SISTEM POIN MEMBER KEDAI KOPI ===");
 // TODO 1: Tulis satu baris console.log() untuk memastikan file app.js sudah terhubung!
 // Contoh output: "Skrip app.js berhasil terhubung!"
 console.log("Script app.js Telah Terhubung");
-=======
 // TODO 1: Tulis satu baris console.log() untuk memastikan file app.js sudah terhubung!
 // Contoh output: "Skrip app.js berhasil terhubung!"
 
@@ -49,7 +48,6 @@ let  SHIFT_KERJA = ["Pagi, Sore, Malam"];
 console.log("Kedai : " + NAMA_KEDAI); 
 console.log("Shift kerja : " + SHIFT_KERJA);
 console.log("Nama Kasir : " + NAMA_KASIR);
-=======
 // 2. Buat variabel "namaKasir" (misal: "Kak Eko") dan "shiftKerja" menggunakan "let".
 // 3. Cetak nilai NAMA_KEDAI, namaKasir, dan shiftKerja ke Console menggunakan console.log().
 
@@ -61,7 +59,6 @@ console.log("Nama Kasir : " + NAMA_KASIR);
 NAMA_KASIR = "Keenan Aditya";
 // lalu cetak ke Console untuk membuktikan bahwa variabel "let" nilainya dapat diubah.
 console.log("Nama Kasir: " + NAMA_KASIR);
-=======
 // lalu cetak ke Console untuk membuktikan bahwa variabel "let" nilainya dapat diubah.origin/main
 
 
@@ -84,7 +81,6 @@ if (NAMA_PELANGGAN) {
 }
 //    - JIKA namaPelanggan ada isinya: tampilkan alert sapaan dan log ke console.
 //    - JIKA namaPelanggan kosong / klik Cancel: beri nilai default "Pelanggan Setia" dan tampilkan alert pemberitahuan
-=======
 // 2. Tampilkan dialog prompt() untuk meminta nama pengunjung, simpan hasilnya ke variabel "namaPelanggan".
 // 3. Gunakan percabangan "if - else":
 //    - JIKA namaPelanggan ada isinya: tampilkan alert sapaan dan log ke console.
@@ -111,7 +107,7 @@ console.log("Kopi : " + POINT_KOPI);
 console.log("Makanan: " + POINT_MAKANAN);
 console.log("Merchandise : " + POINT_MERCHANDISE);
 console.log("Total Point Anda Adalah" + TOTAL_POINT);
-=======
+
 // 2. Buat variabel "totalPoin" yang menjumlahkan ketiga variabel poin di atas.
 // 3. Cetak rincian perolehan poin dan totalPoin ke Console menggunakan console.log().
 
@@ -123,45 +119,42 @@ console.log("Total Point Anda Adalah" + TOTAL_POINT);
 
 // TODO 4:
 // 1. Buat variabel "tierMember" dan "benefit" bertipe string kosong ("").
-// let tierMember = "";
-// let benefit = "";
+let tierMember = "";
+let benefit = "";
 
 // 2. Gunakan percabangan "if - else if - else" berdasarkan nilai "totalPoin":
 //    - totalPoin >= 100 : tierMember = "Platinum", benefit = "Diskon 20% + Gratis 1 Minuman Signature"
 //    - totalPoin >= 70  : tierMember = "Gold", benefit = "Diskon 10% di setiap transaksi"
 //    - totalPoin >= 40  : tierMember = "Silver", benefit = "Diskon 5% untuk menu minuman"
 //    - selain itu       : tierMember = "Bronze", benefit = "Member Reguler (kumpulkan poin untuk naik tier)"
-// if (TOTAL_POINT >= 100) {
-//     tierMember = "Platinum";
-//     benefit = "Diskon 20% + Gratis 1 Minuman Signature";
-// } else if (TOTAL_POINT >= 70) {
-//     tierMember = "Gold ";
-//     benefit = "Diskon 10% di setiap transaksi";
-// } else if (TOTAL_POINT >= 40) {
-//     tierMember = "Silver";
-//     benefit = "Diskon 5% untuk menu minuman";
-// } else {
-//     tierMember = "Bronze";
-//     benefit = "Member Reguler (kumpulkan poin untuk naik tier)";
-// } 
+if (TOTAL_POINT >= 100) {
+    tierMember = "Platinum";
+    benefit = "Diskon 20% + Gratis 1 Minuman Signature";
+} else if (TOTAL_POINT >= 70) {
+    tierMember = "Gold ";
+    benefit = "Diskon 10% di setiap transaksi";
+} else if (TOTAL_POINT >= 40) {
+    tierMember = "Silver";
+    benefit = "Diskon 5% untuk menu minuman";
+} else {
+    tierMember = "Bronze";
+    benefit = "Member Reguler (kumpulkan poin untuk naik tier)";
+} 
 // 3. Cetak hasil tierMember dan benefit ke Console.
-// console.log("Tier Member Anda adalah :" + tierMember);
-// console.log(" Benefit : " + benefit);
+console.log("Tier Member Anda adalah :" + tierMember);
+console.log(" Benefit : " + benefit);
 // 4. Tampilkan ringkasan hasil member (nama, total poin, tier, benefit) via dialog alert().
-// alert(
-//     "Pelanggan : " + NAMA_PELANGGAN +
-//     "\n Total Point : " + TOTAL_POINT +
-//     "\n Member: " + tierMember +
-//     "\n Benevit : " + benefit
-// );
-=======
+alert(
+    "Pelanggan : " + NAMA_PELANGGAN +
+    "\n Total Point : " + TOTAL_POINT +
+    "\n Member: " + tierMember +
+    "\n Benevit : " + benefit
+);
 // 3. Cetak hasil tierMember dan benefit ke Console.
 // 4. Tampilkan ringkasan hasil member (nama, total poin, tier, benefit) via dialog alert().
 
 
 
-
->>>>>>> origin/main
 // ============================================================
 // AKTIVITAS 5: Function — Membuat Fungsi yang Bisa Dipakai Ulang
 // ============================================================
@@ -169,42 +162,41 @@ console.log("Total Point Anda Adalah" + TOTAL_POINT);
 // TODO 5A:
 // Buat fungsi "hitungTotalPoin(p1, p2, p3)" yang menerima 3 parameter nilai poin,
 // menjumlahkannya, dan mengembalikan (return) nilai total penjumlahannya.
-<<<<<<< HEAD
-// function hitungTotalPoin(p1, p2, p3) {
-//     let Total = p1 + p2 + p3; 
-//     return Total; 
-// }
-=======
-
-
-
->>>>>>> origin/main
+function hitungTotalPoin(p1, p2, p3) {
+    let Total = p1 + p2 + p3; 
+    return Total; 
+}
 
 // TODO 5B:
 // Buat fungsi "tentukanTierMember(poin)" yang menerima 1 parameter nilai poin,
 // dan mengembalikan (return) string nama tier beserta keterangannya.
-
-
-
+function tentukanTierMember(poin) {
+    if (poin >= 100) {
+        return "Platinum";
+    } else if (poin >= 70) {
+        return "Gold";
+    } else if (poin >= 40) {
+        return "Silver";
+    } else {
+        return "Bronze";
+    }
+}
 
 // TODO 5C:
 // Buktikan bahwa fungsi di atas bisa dipakai ulang (reusable):
 // 1. Hitung total poin dan tentukan tier untuk simulasi Pelanggan B (misal poin: 35, 25, 20).
 // 2. Hitung total poin dan tentukan tier untuk simulasi Pelanggan C (misal poin: 15, 10, 5).
 // 3. Cetak data Pelanggan B dan C ke tab Console.
-<<<<<<< HEAD
-// let TOTAL_POINT_B = hitungTotalPoin(35, 25, 20);
-// let TOTAL_POINT_C = hitungTotalPoin(15, 10, 5);
 
-// console.log("Pelanggan B - Total Point : " + TOTAL_POINT_B);
-// console.log("Pelanggan B - Tier : " + MemberTier(TOTAL_POINT_B));
+let TOTAL_POINT_B = hitungTotalPoin(35, 25, 20);
+let TOTAL_POINT_C = hitungTotalPoin(15, 10, 5);
 
-// console.log("Pelanggan C - Total Point : " + TOTAL_POINT_C);
-// console.log("Pelanggan C - Tier : " + MemberTier(TOTAL_POINT_C));
-=======
+console.log("Pelanggan B - Total Point : " + TOTAL_POINT_B);
+console.log("Pelanggan B - Tier : " + tentukanTierMember(TOTAL_POINT_B));
 
+console.log("Pelanggan C - Total Point : " + TOTAL_POINT_C);
+console.log("Pelanggan C - Tier : " + tentukanTierMember(TOTAL_POINT_C));
 
->>>>>>> origin/main
 
 
 // ============================================================
@@ -213,7 +205,6 @@ console.log("Total Point Anda Adalah" + TOTAL_POINT);
 
 // TODO 6A:
 // Buat variabel Array bernama "menuRekomendasi" yang berisi minimal 5 nama menu kopi/makanan.
-<<<<<<< HEAD
 // let MENU_REKOMENDASI = [
 //     "Caramel Macchiato",
 //     "Kopi Susu Gula Aren",
@@ -221,31 +212,20 @@ console.log("Total Point Anda Adalah" + TOTAL_POINT);
 //     "Matcha Cream Latte",
 //     "Cinnamon Roll Hangat"
 // ];
-=======
 
-
-
->>>>>>> origin/main
 
 // TODO 6B:
 // Gunakan perulangan "for loop" untuk mencetak setiap menu ke Console dengan format:
 // "1. Nama Menu", "2. Nama Menu", dst. Gunakan (i + 1) untuk nomor urutnya.
-<<<<<<< HEAD
 // for(let i = 0; i < MENU_REKOMENDASI.length; i++) {
 //     console.log ((i + 1) + ". " + MENU_REKOMENDASI[i]);
 // }
-=======
 
-
->>>>>>> origin/main
 
 
 // TODO 6C:
 // Cetak jumlah total menu di akhir daftar menggunakan properti ".length".
 // Akhiri program dengan: console.log("=== TUGAS MANDIRI SELESAI DENGAN SUKSES! ===");
-<<<<<<< HEAD
 // console.log("JUMLAH MENU : " + MENU_REKOMENDASI.length);
 // console.log("=== TUGAS MANDIRI SELESAI DENGAN SUKSES! WAR IS OVERRRR ===");
-=======
 
->>>>>>> origin/main
