@@ -24,7 +24,6 @@
 // Menampilkan judul sistem ke tab Console (F12)
 console.log("=== SISTEM POIN MEMBER KEDAI KOPI ===");
 
-<<<<<<< HEAD
 
 // TODO 1: Tulis satu baris console.log() untuk memastikan file app.js sudah terhubung!
 // Contoh output: "Skrip app.js berhasil terhubung!"
@@ -32,8 +31,6 @@ console.log("Script app.js Telah Terhubung");
 =======
 // TODO 1: Tulis satu baris console.log() untuk memastikan file app.js sudah terhubung!
 // Contoh output: "Skrip app.js berhasil terhubung!"
-
->>>>>>> origin/main
 
 
 
@@ -44,7 +41,6 @@ console.log("Script app.js Telah Terhubung");
 // ---- BAGIAN 2A: VARIABEL IDENTITAS KEDAI KOPI ----
 // TODO 2A:
 // 1. Buat konstanta "NAMA_KEDAI" bertipe string (misal: "Kopi PSTI Kampus").
-<<<<<<< HEAD
 const NAMA_KEDAI = "Sabe Couffe";
 // 2. Buat variabel "namaKasir" (misal: "Kak Eko") dan "shiftKerja" menggunakan "let".
 let NAMA_KASIR = "Adinda Hulya";
@@ -57,20 +53,16 @@ console.log("Nama Kasir : " + NAMA_KASIR);
 // 2. Buat variabel "namaKasir" (misal: "Kak Eko") dan "shiftKerja" menggunakan "let".
 // 3. Cetak nilai NAMA_KEDAI, namaKasir, dan shiftKerja ke Console menggunakan console.log().
 
->>>>>>> origin/main
-
 
 
 // ---- DEMO PERBEDAAN LET vs CONST ----
 // TODO 2B:
 // Ubah (re-assign) nilai variabel "namaKasir" dengan nama kasir lain,
-<<<<<<< HEAD
 NAMA_KASIR = "Keenan Aditya";
 // lalu cetak ke Console untuk membuktikan bahwa variabel "let" nilainya dapat diubah.
 console.log("Nama Kasir: " + NAMA_KASIR);
 =======
-// lalu cetak ke Console untuk membuktikan bahwa variabel "let" nilainya dapat diubah.
->>>>>>> origin/main
+// lalu cetak ke Console untuk membuktikan bahwa variabel "let" nilainya dapat diubah.origin/main
 
 
 
@@ -78,7 +70,6 @@ console.log("Nama Kasir: " + NAMA_KASIR);
 // ---- BAGIAN 2B: INPUT INTERAKTIF & PENGANDAIAN DASAR ----
 // TODO 2C:
 // 1. Tampilkan pop-up salam pembuka selamat datang menggunakan alert().
-<<<<<<< HEAD
 alert("HAI, Selamat Datang di Kedai Kopi kami")
 // 2. Tampilkan dialog prompt() untuk meminta nama pengunjung, simpan hasilnya ke variabel "namaPelanggan".
 let NAMA_PELANGGAN = prompt("Ayo Masukan nama kamu untuk memulai!");
@@ -99,8 +90,6 @@ if (NAMA_PELANGGAN) {
 //    - JIKA namaPelanggan ada isinya: tampilkan alert sapaan dan log ke console.
 //    - JIKA namaPelanggan kosong / klik Cancel: beri nilai default "Pelanggan Setia" dan tampilkan alert pemberitahuan.
 
->>>>>>> origin/main
-
 
 
 // ============================================================
@@ -111,7 +100,6 @@ if (NAMA_PELANGGAN) {
 // TODO 3:
 // 1. Buat 3 variabel poin transaksi: "poinKopi", "poinMakanan", dan "poinMerchandise"
 //    (isi dengan angka bulat bebas, misal: 45, 35, 20).
-<<<<<<< HEAD
 let POINT_KOPI = 45; 
 let POINT_MAKANAN = 35; 
 let POINT_MERCHANDISE = 20;
@@ -128,8 +116,6 @@ console.log("Total Point Anda Adalah" + TOTAL_POINT);
 // 3. Cetak rincian perolehan poin dan totalPoin ke Console menggunakan console.log().
 
 
->>>>>>> origin/main
-
 
 // ============================================================
 // AKTIVITAS 4: Percabangan if-else — Penentuan Tier Membership
@@ -137,17 +123,14 @@ console.log("Total Point Anda Adalah" + TOTAL_POINT);
 
 // TODO 4:
 // 1. Buat variabel "tierMember" dan "benefit" bertipe string kosong ("").
-<<<<<<< HEAD
 // let tierMember = "";
 // let benefit = "";
-=======
->>>>>>> origin/main
+
 // 2. Gunakan percabangan "if - else if - else" berdasarkan nilai "totalPoin":
 //    - totalPoin >= 100 : tierMember = "Platinum", benefit = "Diskon 20% + Gratis 1 Minuman Signature"
 //    - totalPoin >= 70  : tierMember = "Gold", benefit = "Diskon 10% di setiap transaksi"
 //    - totalPoin >= 40  : tierMember = "Silver", benefit = "Diskon 5% untuk menu minuman"
 //    - selain itu       : tierMember = "Bronze", benefit = "Member Reguler (kumpulkan poin untuk naik tier)"
-<<<<<<< HEAD
 // if (TOTAL_POINT >= 100) {
 //     tierMember = "Platinum";
 //     benefit = "Diskon 20% + Gratis 1 Minuman Signature";
